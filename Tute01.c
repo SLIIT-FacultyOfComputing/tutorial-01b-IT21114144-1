@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main() {
-
+  
   float dis , amt ;
 
   printf("Enter the Distance : ") ;
@@ -25,6 +25,7 @@ int main() {
   }
 
   printf("\nThe Amount to be paid %.2f" , amt) ;
+
   return 0;
 }
 
