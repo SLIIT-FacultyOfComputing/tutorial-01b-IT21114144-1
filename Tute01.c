@@ -5,26 +5,18 @@
 #include <stdio.h>
 
 int main() {
-  
-  float dis , amt ;
 
-  printf("Enter the Distance : ") ;
-  scanf( "%f" , &dis ) ;
+  float mrk1 , mrk2 , avg ;
 
-  if ( dis < 30 )
-  {
-    amt = 30 * 50  ;
-  } 
-  else if ( dis > 30 )
-  {
-    amt = 30 * 50 + ( dis - 30 ) * 40 ;
-  } 
-  else 
-  {
-    printf(" Invalid Disstance ") ;
-  }
+  printf ("Enter the Mark 1 : ") ;
+  scanf("%f" , &mrk1) ;
 
-  printf("\nThe Amount to be paid %.2f" , amt) ;
+  printf ("Enter the Mark 2 : ") ;
+  scanf("%f" , &mrk2) ;
+
+  avg = ( mrk1 + mrk2 ) / 2 ;
+
+  printf("\nThe Average is %.2f" , avg) ;
 
   return 0;
 }
